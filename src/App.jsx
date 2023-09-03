@@ -1,14 +1,6 @@
-import { useState } from 'react';
-import './App.css';
+const url = 'https://course-api.com/react-tours-project';
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <>
-      <h1>dfdfd</h1>
-    </>
-  );
-}
-
+const App = () => {
+  return <h2>Tours Starter</h2>;
+};
 export default App;
